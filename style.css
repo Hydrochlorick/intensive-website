@@ -17,7 +17,7 @@ main > section {
 
 footer {
     border-top: 2px solid rgb(112, 112, 112);
-    min-height: 50vh;
+    min-height: 30vh;
 }
 
 #italic {
@@ -108,17 +108,17 @@ nav ul a:hover {
 
 }
 
-#why #right {
-    background-color: #fff;
-    max-height: min-content;
-    
+/* why doesn't this workkkkkk */
+#why > #right li {
+    text-align: center;
+    text-justify: center;
+    align-items: center;
 }
 
 #why ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    /* display: flex; */
     justify-content: center;
 }
 
@@ -153,25 +153,31 @@ nav ul a:hover {
 
 
 #privacy {
-    background-color: #5856D6;
-    background-image: url(images/carlos-0.jpg);
-    background-size: cover;
+    background-image: url(images/privacy.jpg);
+    /* background-size: cover; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #privacy > div {
-    background-color:rgba(255, 255, 255, 0.65);
-    padding: 2em;
+    padding: 0em;
     width: 75%;
     max-width: 700px;
 }
 
 #privacy  h2 {
+    color: #48b4df;
+    text-shadow: 0 0 7px rgb(98, 147, 161);
+    /* background-color: #000; */
     font-size: 4em;
-    margin: 0 0 1rem 0;
+    margin: 0 0 0rem 0;
     text-align: center;
+}
+
+#privacy p {
+    color: #61d2ff;
+
 }
 
 
@@ -196,10 +202,6 @@ nav ul a:hover {
     display: flex;
     flex-direction: column;
 }
-
-/* label {
-    margin: 1em 0;
-} */
 
 label span {
     margin: 1em 0;
