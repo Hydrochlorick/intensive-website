@@ -1,0 +1,230 @@
+body {
+    /* Don't quite Understand all of this here, but it was there for our single page website example in class: */
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1d1818;
+    line-height: 1.5;
+}
+
+nav, main > section {
+    overflow: auto;
+}
+
+main > section {
+    min-height: 60vh;
+    border-top: 2px solid rgb(112, 112, 112);
+}
+
+footer {
+    border-top: 2px solid rgb(112, 112, 112);
+    min-height: 50vh;
+}
+
+#italic {
+    font-style: italic;
+}
+
+/* Style the nav bar */
+#nav {
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1em;
+    background-color: #1e1922;
+    color: #eee;
+    display: flex;
+}
+
+nav h1, ul {
+    margin: 0
+}
+
+nav a {
+    text-decoration: none;
+    color: #eee;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul a {
+    padding: 1em;
+    color: white;
+}
+
+nav ul a:hover {
+    color: #7067CF;
+}
+
+#titlecard {
+    background-color: #330C2F;
+    background-image: url(images/fancybrain.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 4em; */
+    color: #fff;
+    min-height: 80vh;
+}
+
+#titlecard > div {
+    margin: 1em;
+    position: relative;
+}
+
+#titlecard h2 {
+    font-size: 6em;
+}
+
+#titlecard h4 {
+    font-size: 2.2em;
+}
+
+#titlecard > #right {
+    text-align: center;
+}
+
+#titlecard > #right p {
+    padding-bottom: 1em;
+    font-size: 2em;
+    text-shadow: 0 0 40px #000000;
+
+}
+
+#titlecard h2, #titlecard h4 {
+    margin: 0;
+    text-shadow: 0 0 30px #000000;
+}
+
+
+
+#why {
+    background-color: #00aadd;
+    background-image: url(images/pathways.jpg);
+    display: flex;
+    padding: 0.5em;
+
+}
+
+#why #right {
+    background-color: #fff;
+    max-height: min-content;
+    
+}
+
+#why ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    justify-content: center;
+}
+
+#why > ul {
+    padding: 2em;
+}
+
+#why #left {
+    margin: 2em;
+    max-width: 45vw;
+}
+
+#why > div > h2 {
+    margin: 0.5em;
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 20px #000;
+}
+
+#why > div > h5, #why > div > ul h5 {
+    color: #fff;
+    font-size: 2em;
+    text-shadow: 0 0 20px #000;
+}
+
+#why a, p {
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+
+#privacy {
+    background-color: #5856D6;
+    background-image: url(images/carlos-0.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#privacy > div {
+    background-color:rgba(255, 255, 255, 0.65);
+    padding: 2em;
+    width: 75%;
+    max-width: 700px;
+}
+
+#privacy  h2 {
+    font-size: 4em;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+
+#contact {
+    background-color: #FF9500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact > form {
+    display: flex;
+}
+
+#contact > form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    display: flex;
+    flex-direction: column;
+}
+
+/* label {
+    margin: 1em 0;
+} */
+
+label span {
+    margin: 1em 0;
+}
+
+input, textarea {
+    border: 1px solid #000;
+    padding: 0.5em;
+    margin: 0 2em 0 0;
+    width: 20em;
+    font-size: 1em;
+}
+
+/* textarea {
+    height: 9em;
+    margin: 0 0 0 0;
+} */
+
+form button {
+    width: auto;
+    font-size: 1em;
+    margin: 1em 0;
+    align-self: flex-end;
+    padding: 0.5em 1em;
+    background-color:rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+}
