@@ -157,9 +157,11 @@ nav ul a:hover {
 }
 
 
+
 #privacy {
     background-image: url(images/privacy.jpg);
     /* background-size: cover; */
+    /* I can't figure out styling this shit. I give up */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,11 +188,12 @@ nav ul a:hover {
 
 
 #contact {
-    background-color: #FF9500;
+    background-color: #1e1922;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
 #contact > form {
