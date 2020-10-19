@@ -1,3 +1,5 @@
+/* This whole page is a chatoic disaster I hate CSS */
+
 body {
     /* Don't quite Understand all of this here, but it was there for our single page website example in class: */
     margin: 0;
@@ -20,7 +22,7 @@ footer {
     min-height: 30vh;
 }
 
-#italic {
+.italic {
     font-style: italic;
 }
 
@@ -114,13 +116,9 @@ nav ul a:hover {
     align-content: center;
     text-align: center;
     align-items: center;
-    /* JUST CENTER THE TEXT OMG */
+    /* JUST CENTER THE TEXT OMFG */
 }
 
-#why > #right h2 {
-    background-color: #2f3638;
-    font-size: 50px;
-}
 
 #why ul {
     list-style: none;
@@ -138,7 +136,7 @@ nav ul a:hover {
     max-width: 45vw;
 }
 
-#why > div > h2 {
+#why > div h2 {
     margin: 0.5em;
     font-size: 3em;
     text-align: center;
@@ -146,7 +144,7 @@ nav ul a:hover {
     text-shadow: 0 0 20px #000;
 }
 
-#why > div > h5, #why > div > ul h5 {
+#why > div h5 {
     color: #fff;
     font-size: 2em;
     text-shadow: 0 0 20px #000;
