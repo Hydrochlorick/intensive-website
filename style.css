@@ -24,7 +24,6 @@ footer {
     font-style: italic;
 }
 
-/* Style the nav bar */
 #nav {
     justify-content: space-between;
     align-items: baseline;
@@ -109,10 +108,18 @@ nav ul a:hover {
 }
 
 /* why doesn't this workkkkkk */
-#why > #right li {
+#why > #right {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     text-align: center;
-    text-justify: center;
     align-items: center;
+    /* JUST CENTER THE TEXT OMG */
+}
+
+#why > #right h2 {
+    background-color: #2f3638;
+    font-size: 50px;
 }
 
 #why ul {
@@ -177,7 +184,6 @@ nav ul a:hover {
 
 #privacy p {
     color: #61d2ff;
-
 }
 
 
