@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
 	<head>
-		<title>Eideitc: </title>
+		<title>Eideitc</title>
         <link rel="stylesheet" type="text/css" href="style.css">
 
         <!-- Animate On Scroll JS library, just in case I end up using it -->
@@ -15,7 +15,7 @@
 				<h1><a href="#">Eidetic</a></h1>
 				<ul>
 					<li><a href="#why">Why Eidetic?</a></li>
-					<li><a href="#privacy">Privacy</a></li>
+					<li><a href="#privacy">Privacy Statement</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -23,11 +23,11 @@
 			<section id="titlecard">
 				<div id="left">
 					<h2>Eidetic</h2>
-					<h4>Redefining crystalized intelligence</h4>
+					<h4>Redefining Crystalized Intelligence</h4>
 				</div>
 				<div id="right">
 					<p>Get the latest version today!</p>
-					<img src="images/ontheappstore.png">
+					<a href="#contact"><img src="images/ontheappstore.png"></a>
 				</div>
 			</section>
 		
@@ -39,7 +39,9 @@
 					</h5>
 					<p>By now it's no secret that the way we process and store information is changing.
 						The digital era has warranted prioritizing remembering <span class='italic'>how</span> to find information over the specific information itself.
-						We believe that if your application attends to all available metadata that it can when you create notes, it should use that information to help you find them when you them.
+					</p>
+					<p>
+						Much like memory recall in the brain is triggered by external mementos, Eidetic will use contextual information to try to guess what item you might want to be seeing next. With enough customization, metadata, and some trial and error, we believe the app can revolutionize the way you think about the storage or your most important memories.
 					</p>
 				</div>
 				<div id="right">
@@ -53,11 +55,15 @@
 			<section id="privacy">
 				<div>
 					<h2>Let's Talk Privacy</h2>
-					<div id="priv">
-						<p>
-							Collecting as much metadata as possible allows Eidetic to understand the way your brain works in ways that might not be immediately apparent to you.
-							No identifying information of your is ever saved on remote servers. The more data the app has access to, the more <span class="italic">magical</span> its suggestions will seem.
-						</p>
+					<div id="privright">
+						<div>
+							<p>
+								Collecting as much metadata as possible allows Eidetic to understand the way your brain works in ways that might not be immediately apparent to you. 
+								<br><br>It's no small ask, but ultimately, if we truly want to emulate the way your brain thinks, it needs to be able to make these constant associations. This pseudo-state-dependent memory</p>
+								<p>The more data the app has access to, the more <span class="italic">magical</span> its suggestions will seem.
+							</p>
+						</div>
+						<img src="images/locknote.png">
 					</div>
 				</div>
 			</section>
@@ -78,10 +84,18 @@
 					</div>
 					<div>
 						<label>
+							<span>What you do:</span>
+							<select name="role" id="role">
+								<option value="mobile">Mobile App Development</option>
+								<option value="datml">Machine Learning</option>
+								<option value="tharealhero">Give emotional support</option>
+							</select>
+						</label>
+						<label>
 							<span>Message</span>
 							<textarea></textarea>
 						</label>
-						<button type="submit">Send</button>
+						<button type="submit">Let's chat!</button>
 					</div>
 				</form>
 			</footer>

@@ -19,7 +19,6 @@ main > section {
 
 footer {
     border-top: 2px solid rgb(112, 112, 112);
-    min-height: 30vh;
 }
 
 .italic {
@@ -104,6 +103,7 @@ nav ul a:hover {
 #why {
     background-color: #00aadd;
     background-image: url(images/pathways.jpg);
+    background-size: cover;
     display: flex;
     padding: 0.5em;
 
@@ -117,18 +117,6 @@ nav ul a:hover {
     text-align: center;
     align-items: center;
     /* JUST CENTER THE TEXT OMFG */
-}
-
-
-#why ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-}
-
-#why > ul {
-    padding: 2em;
 }
 
 #why #left {
@@ -173,6 +161,10 @@ nav ul a:hover {
     max-width: 700px;
 }
 
+#privright {
+    display: flex;
+}
+
 #privacy  h2 {
     color: #48b4df;
     text-shadow: 0 0 7px rgb(98, 147, 161);
@@ -188,7 +180,7 @@ nav ul a:hover {
 
 
 #contact {
-    background-color: #1e1922;
+    background-color: #100;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,7 +210,6 @@ input, textarea {
     border: 1px solid #000;
     padding: 0.5em;
     margin: 0 2em 0 0;
-    width: 20em;
     font-size: 1em;
 }
 
@@ -231,9 +222,14 @@ form button {
     width: auto;
     font-size: 1em;
     margin: 1em 0;
-    align-self: flex-end;
-    padding: 0.5em 1em;
-    background-color:rgb(0, 0, 0);
+    align-self: center;
+    /* padding: 0.5em 1em; */
+    background-color: #332a3a;
+    border-radius: 10px;
     color: #fff;
     border: none;
+}
+
+form button:hover {
+    background-color: ;
 }
