@@ -231,5 +231,6 @@ form button {
 }
 
 form button:hover {
-    background-color: ;
+    color: #48b4df;
+    background-color: #0a2a36;
 }
